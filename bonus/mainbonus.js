@@ -11,6 +11,26 @@ const li = document.createElement("li");
 const button = document.querySelector("button");
 const remove = document.querySelector(".remove");
 const buttonRed = document.querySelector(".color");
+const addRemove = document.getElementById("addRemove")
+
+addRemove.addEventListener("click", function() {
+    const ciao = red.className;
+    const ciao1 = red1.className;
+    const ciao2 = red2.className;
+    const ciao3 = red3.className;
+    
+    if (ciao == "red" ) {
+        red.classList.remove("red")
+        red1.classList.remove("red")
+        red2.classList.remove("red")
+        red3.classList.remove("red")
+    } else {
+        red.classList.add("red")
+        red1.classList.add("red")
+        red2.classList.add("red")
+        red3.classList.add("red")
+    }
+})
 
 buttonRed.addEventListener("click", function() {
      red.classList.add("red");

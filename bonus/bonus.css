@@ -85,6 +85,9 @@ header {
     text-decoration: none;
 }
 
+.hamburger-menu .red {
+    color: red;
+}
 @media screen and (max-width: 1000px)
 {
     .header-right ul {
@@ -104,7 +107,3 @@ header {
     }
 }
 
-
-.hamburger-menu .red {
-    color: red;
-}
