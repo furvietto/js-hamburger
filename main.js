@@ -3,9 +3,9 @@ const hamburger = document.querySelector(".hamburger-menu");
 const iconx = document.querySelector(".fas.fa-times");
 
 icon.addEventListener('click', function() {
-    hamburger.classList.add("active");   
+    hamburger.classList.toggle("active");   
 });
 
 iconx.addEventListener('click', function() {
-    hamburger.classList.remove("active");
+    hamburger.classList.toggle("active");
 });
